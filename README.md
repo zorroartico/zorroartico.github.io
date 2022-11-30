@@ -1,2 +1,3 @@
 # zorroartico.github.io
-My portfolio.
+Link: [The portfolio of Hyun Su (Winfred) Seong](https://zorroartico.github.io/)
+
