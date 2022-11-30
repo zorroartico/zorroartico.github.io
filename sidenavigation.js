@@ -5,7 +5,7 @@ function portfolioLogo() {
 }
 
 function navigation() { 
-    const menu = [["Home","index"], ["About","about"], ["FAQ","faq"]];
+    const menu = [["Home","index"], ["About","about"], ["FAQ","FAQ"]];
     const curvedArrow = "<p style='font-size: 50px; color: grey; margin-top: 40px; text-align: center; cursor: pointer;' href='javascript:void(0)' onclick='closeNav()'>&#8635;</p>"
 
     for (let i in menu) {
