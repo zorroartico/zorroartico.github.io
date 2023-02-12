@@ -1,7 +1,7 @@
 // Portfolio Logo and Navigation Link Settings
 
 function portfolioLogo() {
-    document.write("<img id='logo' src='hss academic emblem.png' alt='The Portfolio of Hyun Su (Winfred) Seong'>");
+    document.write("<img id='logo' src='images/hss academic emblem.png' alt='The Portfolio of Hyun Su (Winfred) Seong'>");
 }
 
 function navigation() { 
