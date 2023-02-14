@@ -113,15 +113,6 @@ b,i {
     display: block;
 }
 
-.center-btn {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 200px;
-    display: block;
-}
-
 a {
     text-decoration: none;
     color: rgb(57, 158, 117);
