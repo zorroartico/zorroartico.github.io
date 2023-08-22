@@ -24,7 +24,11 @@ function openMetadata(type, fig_number) {
                             ['This is a neural network, historgram, and scatterplot matrix created with a dummy dataset which I made with random numbers for fun. In this example, it shows a dataset containing four types of new plant species discovered on an exoplanet called "Chocolate". I divided fruit sizes with some conditions, so the fruit size column looks relatively organized than the other two row in front. Doing this type of exercise can be a fun way to learn about how to code complicated plots. This might come in handy when doing the actual gardening.', 'My random numbers.', 'R']
                                 ];
                                 
-
+    const design_fig_info = [
+                            ['A poster about Fusarium wilt, also known as Panama Disease, which affects Cavendish bananas that could lead to less production of bananas in the future. The virus that was a predecessor of Fusarium wilt has been the leading cause for the demise of Gros Michel banana species.'],
+                            ['A King Cherry garden. King Cherry is a native species of Korea, especially in Jeju Island. The original purpose of this image was to practice low-poly modelling of shapes.'],
+                            ['An airplane with a three-blade rotor that is about to takeoff facing headwind from the opposite direction. This image was also designed with a low-poly modelling technique.']
+                                ]; 
     if (type == 'gis') {
         switch (fig_number) {
             case 1:
@@ -56,7 +60,20 @@ function openMetadata(type, fig_number) {
                 break; 
                 
         };
-    }
+    } else if (type == 'design') {
+        switch (fig_number) {
+            case 1:
+                document.write('<div class="div-center-caption-2"' + fig_number + '">' + '<table style="border-spacing: 30px;"><tr><th colspan="3">Description</th></tr><tr><td colspan="3">' + design_fig_info[0][0] + '</td></tr></table></div><br>');
+                break; 
+            case 2:
+                document.write('<div class="div-center-caption-2"' + fig_number + '">' + '<table style="border-spacing: 30px;"><tr><th colspan="3">Description</th></tr><tr><td colspan="3">' + design_fig_info[1][0] + '</td></tr></table></div><br>');
+                break; 
+            case 3:
+                document.write('<div class="div-center-caption-2"' + fig_number + '">' + '<table style="border-spacing: 30px;"><tr><th colspan="3">Description</th></tr><tr><td colspan="3">' + design_fig_info[2][0] + '</td></tr></table></div><br>');
+                break; 
+                
+        };
+    };  
 
 
 }
