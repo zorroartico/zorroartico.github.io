@@ -3,11 +3,18 @@ body {
     margin: 0px;
 }
 
-h1, h2 {
+h1 {
     font-family: Oleo Script;
     text-align: center;
     margin-bottom: 30px;
 }
+
+h2 {
+    font-family: Oleo Script;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
 
 h3 {
     text-align: left;
@@ -88,20 +95,7 @@ b,i {
     margin: 30px;
 }
 
-.div-center {
-    margin: auto; 
-    max-width: 670px; 
-    width: 90%; 
-    padding: 15px;
-}
 
-.div-center-caption {
-    margin: auto; 
-    max-width: 670px; 
-    width: 90%; 
-    padding: 15px;
-    border: 1px dashed rgb(177, 177, 177);
-}
 
 
 /* Image, Figure, Button, Line, Table, Link Settings */
@@ -123,6 +117,13 @@ hr.dash {
     width: 150px;
     margin-top: 120px;
     margin-bottom: 150px;
+}
+
+hr.dash-2 {
+    border-top: 5px dashed rgb(189, 189, 189);
+    width: 150px;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 th, td {
@@ -151,9 +152,31 @@ th, td {
 .fig {
     max-width: 700px;
     width: 100%;
-    box-shadow: 5px 5px skyblue;
+    box-shadow: 5px 5px rgb(197, 197, 197);
 }
 
+.div-center {
+    margin: auto; 
+    max-width: 670px; 
+    width: 90%; 
+    padding: 15px;
+}
+
+.div-center-caption {
+    margin: auto; 
+    max-width: 667px; 
+    width: 93%; 
+    padding: 15px;
+    border: 1px dashed rgb(177, 177, 177);
+}
+
+.div-center-caption-2 {
+    margin: auto; 
+    max-width: 667px; 
+    width: 94%; 
+    padding: 15px;
+    border: 1px dashed rgb(177, 177, 177);
+}
 
 /* Side Navigation settings */
 .sidenav {
