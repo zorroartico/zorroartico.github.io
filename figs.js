@@ -73,7 +73,6 @@ function openMetadata(type, fig_number) {
             case 3:
                 document.write('<div class="div-center-caption-2"' + fig_number + '">' + '<table style="border-spacing: 30px;"><tr><th colspan="3">Description</th></tr><tr><td colspan="3">' + design_fig_info[2][0] + '</td></tr></table></div><br>');
                 break; 
-            
             case 4:
                 document.write('<div class="div-center-caption-2"' + fig_number + '">' + '<table style="border-spacing: 30px;"><tr><th colspan="3">Description</th></tr><tr><td colspan="3">' + design_fig_info[3][0] + '</td></tr></table></div><br>');
                 break; 
