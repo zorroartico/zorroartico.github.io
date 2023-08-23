@@ -126,6 +126,13 @@ hr.dash-2 {
     margin-bottom: 90px;
 }
 
+hr.dash-3 {
+    border-top: 5px dashed rgb(189, 189, 189);
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 th, td {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify;
