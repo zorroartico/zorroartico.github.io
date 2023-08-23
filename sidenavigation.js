@@ -5,11 +5,27 @@ function portfolioLogo() {
 }
 
 function navigation() { 
-    const menu = [["Home","index"], ["About","about"], ["FAQ","FAQ"]];
+    const menu = [["Home","index"], ["About","about"], ["Library","library"], ["FAQ","FAQ"]];
     const curvedArrow = "<p style='font-size: 50px; color: grey; margin-top: 40px; text-align: center; cursor: pointer;' href='javascript:void(0)' onclick='closeNav()'>&#8635;</p>"
 
     for (let i in menu) {
         document.write("<li id='li-sidenav'>" + "<a href=" + menu[i][1] + ".html>" + menu[i][0] + "</a></li>" );
+    };
+
+    document.write(curvedArrow);
+}
+
+// This is for the library.
+function portfolioLogo_library() {
+    document.write("<img id='logo' src='../images/hss academic emblem.png' alt='The Portfolio of Hyun Su (Winfred) Seong'>");
+}
+
+function navigation_library() { 
+    const menu = [["Home","index"], ["About","about"], ["Library","library"], ["FAQ","faq"]];
+    const curvedArrow = "<p style='font-size: 50px; color: grey; margin-top: 40px; text-align: center; cursor: pointer;' href='javascript:void(0)' onclick='closeNav()'>&#8635;</p>"
+
+    for (let i in menu) {
+        document.write("<li id='li-sidenav'>" + "<a href=../" + menu[i][1] + ".html>" + menu[i][0] + "</a></li>" );
     };
 
     document.write(curvedArrow);
