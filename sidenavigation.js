@@ -21,7 +21,7 @@ function portfolioLogo_library() {
 }
 
 function navigation_library() { 
-    const menu = [["Home","index"], ["About","about"], ["Library","library"], ["FAQ","faq"]];
+    const menu = [["Home","index"], ["About","about"], ["Library","library"], ["FAQ","FAQ"]];
     const curvedArrow = "<p style='font-size: 50px; color: grey; margin-top: 40px; text-align: center; cursor: pointer;' href='javascript:void(0)' onclick='closeNav()'>&#8635;</p>"
 
     for (let i in menu) {
