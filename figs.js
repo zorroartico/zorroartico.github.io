@@ -26,9 +26,11 @@ function openMetadata(type, fig_number) {
                                 
     const design_fig_info = [
                             ['A poster about Fusarium wilt, also known as Panama Disease, which affects Cavendish bananas that could lead to less production of bananas in the future. The virus that was a predecessor of Fusarium wilt has been the leading cause for the demise of Gros Michel banana species.'],
+                            ['A poster that is about securing access to a house. The green background symbolizes security and the white circle is added behind the house to make it more contrasting with the overall background.'],
                             ['A King Cherry garden. King Cherry is a native species of Korea, especially in Jeju Island. The original purpose of this image was to practice low-poly modelling of shapes.'],
                             ['An airplane with a three-blade rotor that is about to takeoff facing headwind from the opposite direction. This image was also designed with a low-poly modelling technique.']
                                 ]; 
+
     if (type == 'gis') {
         switch (fig_number) {
             case 1:
