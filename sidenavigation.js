@@ -55,3 +55,7 @@ function closeNav() {
     document.getElementById('openandclosebtn').innerHTML = "Menu";
     document.getElementById('openandclosebtn').setAttribute("onclick", "openNav()")
 }
+
+function footer() {
+    document.write('<p style="text-align: center; color: gray; margin-top: 50px; margin-bottom: 50px;">HSS Portfolio &copy; Hyun Su (Winfred) Seong <br> 2022 - Present.</p>')
+}
