@@ -95,9 +95,6 @@ b,i {
     margin: 30px;
 }
 
-
-
-
 /* Image, Figure, Button, Line, Table, Link Settings */
 /* Center an image */
 .center {
@@ -171,18 +168,39 @@ th, td {
 
 .div-center-caption {
     margin: auto; 
-    max-width: 667px; 
-    width: 93%; 
+    max-width: 670px; 
+    width: 88%; 
     padding: 15px;
     border: 1px dashed rgb(177, 177, 177);
 }
 
 .div-center-caption-2 {
     margin: auto; 
-    max-width: 667px; 
-    width: 94%; 
+    max-width: 700px; 
+    width: 95%; 
     padding: 15px;
     border: 1px dashed rgb(177, 177, 177);
+}
+
+/* These are for graphic design pictures */
+@media only screen and (max-width: 420px) {
+    .div-center-caption-2 {
+        margin: auto; 
+        max-width: 700px; 
+        width: 90%; 
+        padding: 15px;
+        border: 1px dashed rgb(177, 177, 177); 
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .div-center-caption-2 {
+        margin: auto; 
+        max-width: 700px; 
+        width: 87%; 
+        padding: 15px;
+        border: 1px dashed rgb(177, 177, 177); 
+    }
 }
 
 /* Side Navigation settings */
