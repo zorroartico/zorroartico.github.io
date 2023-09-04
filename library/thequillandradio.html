@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The Quill & Radio | HSS Portfolio </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href='../cssfile.css'>
+  <script src="../sidenavigation.js"></script>
+
+  <style>
+    .table-lib {
+      border: 1px solid rgb(192, 192, 192);
+      width: 100%;
+      border-spacing: 0;
+      border-collapse: collapse;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      border-collapse: separate;
+      border-radius: 1em;
+      overflow: hidden;
+    }
+
+    .table-lib th {
+      background-color: rgb(141, 87, 151); 
+      color: rgb(255, 255, 255);
+      padding: 10px;
+      text-align: center;
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+    }
+
+    .table-lib td {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      padding: 10px;
+      text-align: justify;
+    }
+
+    .table-lib:nth-child(1) tr:nth-last-child(1) {
+      border-bottom-left-radius: 1em;
+      border-bottom-right-radius: 1em;
+    }
+
+    .table-lib tr:nth-child(odd) {
+      background-color: rgb(223, 223, 223);
+    }
+
+    .ref {
+      font-family: Oleo Script;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .ul-ref {
+        list-style: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .ul-ref > li {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        line-height: 1.5em;
+    }
+
+    .span-code {
+      background-color: rgb(141, 87, 151);
+      color:white;
+      width: fit-content;
+      height: fit-content;
+      border-radius: 20px;
+      padding-left: 5px; 
+      padding-right: 5px; 
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+<div id="thesidenav" class="sidenav">
+  <script>portfolioLogo_library();</script>
+  <ul id="ul-sidenav">
+    <script>navigation_library();</script>
+  </ul>
+</div>
+
+<div id="main">
+  <button type="button" id="openandclosebtn" class="btn-openclose" onclick="openNav()"><script>idleNav()</script></button>
+
+  <div class="div-center">
+    <h1>The Quill & Radio</h1>
+
+    <img src="../images/programming symbol.png" class="center" style="width: 150px; height: auto;">
+    <p style="text-align: center;">This article belongs to the <span style="color:rgb(141, 87, 151); font-weight: bold; font-style: italic">Programming Projects</span> category.</p>
+
+    <div class="div-center"  style="overflow-x: auto;">
+      <table class="table-lib">
+        <tr>
+          <th colspan="2">The Quill & Radio</th>
+        </tr>
+        <tr>
+          <td>Date</td>
+          <td>9.3.2023</td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>Application Software</td>
+        </tr>
+        <tr>
+          <td>Made with</td>
+          <td>Python (tkinter)</td>
+        </tr>
+        <tr>
+          <td>Description</td>
+          <td>An application that can quickly record information while listening to radio on a desktop.</td>
+        </tr>
+      </table>
+    </div>
+
+    <h1>Introduction</h1>
+    <p><span style="font-size: 35px; font-weight: bold;">T</span>he Quill & Radio is an application software (or so-called 'graphical user interface (GUI)') created by me in Python, specifically using tkinter. It is a standalone application with which I use to quickly record information I just heard from a radio show. The output of the application is saved in a text file (.txt).</p>
+
+    <p>As a licensed amateur radio operator, while using a notepad or spreadsheet, I found that information is not as organized as I expected. So, I decided to create my own application that can do the things I wanted.</p>
+
+    <h1>Procedure</h1>
+    <p>Below is the first version of the application. Left contained station information and digital clock. Right contained entry boxes where a user would enter information and the application would display the inputs on the left. Visually, it looks barren.</p>
+
+    <img src="../images/first version (the quill and radio).png" class="img-normal center">
+
+    <p>Below is the second version. I added Matplotlib - a module that can create maps. But embedding Matplotlib slowed down the application's execution time, and it raised an error with <span class="span-code">.after()</span>, which was the digital clock. The size of the map was clunky. To solve this issue, I trashed the old design and coded the UI again from scratch.</p>
+
+    <img src="../images/second version (the quill and radio).png" class="img-normal center">
+
+    <p>The final version is shown below. The challenge was building a logic that doesn't raise errors. For example, the map should not update until a user selects the the cities (the "Listening to" box is disabled for this reason).</p>
+
+    <img src="../images/third version (the quill and radio).png" class="img-normal center">
+
+    <p>Anyhow, the application works fine. I learned so many things from doing this side project. I will apply these lessons when I build a new application.</p>
+
+  </div>
+
+  <script>footer();</script>
+
+</div>
+
+
+</body>
+</html>
