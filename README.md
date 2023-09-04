@@ -1,6 +1,9 @@
 # zorroartico.github.io
 Link: [The portfolio of Hyun Su (Winfred) Seong](https://zorroartico.github.io/)
 
+# Welcome Everyone!
+* This is my personal portfolio which displays my professional work. This is also the place where you can meet the "authentic" version of me. I constantly maintain this portfolio, so if curious as to what I am writing, feel free to visit more often.
+
 # Update Logs
 * [1.11.2023] Portfolio logo version 2 is uploaded. The design is now more simplified.
 * [2.11.2023] .ul-normal selector is added as well as b and i tags.
