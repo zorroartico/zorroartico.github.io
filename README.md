@@ -2,7 +2,7 @@
 Link: [The portfolio of Hyun Su (Winfred) Seong](https://zorroartico.github.io/)
 
 # Welcome Everyone!
-* This is my personal portfolio which displays my professional work. This is also the place where you can meet the "authentic" version of me. I constantly maintain this portfolio, so if curious as to what I am writing, feel free to visit more often.
+This is my personal portfolio which displays my professional work. This is also the place where you can meet the "authentic" version of me. I constantly maintain this portfolio, so if curious as to what I am writing, feel free to visit more often.
 
 # Update Logs
 * [1.11.2023] Portfolio logo version 2 is uploaded. The design is now more simplified.
@@ -12,4 +12,4 @@ Link: [The portfolio of Hyun Su (Winfred) Seong](https://zorroartico.github.io/)
 * [8.23.2034] Added a new section "Library" to store geographic knowledge. Other logos also added.
 
 # Be Aware
-* I own my graphic products (logos, art, pictures) uploaded on this portfolio. You may not copy, modify, or distribute it without a specific permission from the author (me).
+I own my graphic products (logos, art, pictures) uploaded on this portfolio. You may not copy, modify, or distribute it without a specific permission from the author (me).
