@@ -38,13 +38,13 @@ p, li {
     padding: 0;
     margin: 0;
     text-align: center;
-    background: rgb(124, 0, 54);
+    background: rgb(124, 4, 50);
     width: 100%;
 }
 
 /* [index.html] logo at the top */
 .main-logo {
-    width: 100px; 
+    width: 75px; 
     height: auto;
     margin-top: 20px;
 }
