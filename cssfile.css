@@ -44,7 +44,7 @@ p, li {
 
 /* [index.html] logo at the top */
 .main-logo {
-    width: 90px; 
+    width: 75px; 
     height: auto;
     margin-top: 20px;
 }
@@ -129,6 +129,12 @@ td {
 @media only screen and (max-width: 443px) {
     h1 {
         font-size: medium;
+    }
+
+    .main-logo {
+        width: 75px; 
+        height: auto;
+        margin-top: 20px;
     }
 
     .menu {
